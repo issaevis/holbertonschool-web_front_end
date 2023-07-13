@@ -142,6 +142,19 @@ ul.row{
     text-align: right;
 }
 
+.table-row {
+    display: table;
+}
+  
+.row::after {
+    content: "";
+}
+  
+.row {
+    float: none;
+}
+  
+
 .visually-hidden{
     display: none;
 }
