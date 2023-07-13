@@ -142,10 +142,10 @@ ul.row{
     text-align: right;
 }
 
-.row + .row {
-    display: table;
+.row::after {
     content: "";
-    float: none;
+    display: table;
+    clear: both;
 }
   
 
