@@ -100,12 +100,12 @@ a:active{
     border: var(--button-border);
     font-size: var(--button-font-size);
     color: var(--button-color);
-    font-style: var(--button-text-decoration);
+    text-decoration: var(--button-text-decoration);
 }
 
 .button:hover{
     color: var(--button-hover-color);
-    font-style: var(--button-hover-text-decoration);
+    text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
 }
 
