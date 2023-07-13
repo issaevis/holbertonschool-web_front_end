@@ -1,7 +1,7 @@
 @import "normalize.css";
 
 *{
-    box-sizing: padding-box;
+    box-sizing: border-box;
 }
 
 html{
